@@ -1,0 +1,124 @@
+.carousel {
+  background: white;
+  border-radius: var(--radius-xl);
+  padding: var(--space-3xl);
+  box-shadow: var(--shadow-xl);
+  position: relative;
+  max-width: 760px;
+  margin: 0 auto;
+  border: 1px solid var(--color-border);
+  min-height: 280px;
+}
+
+.quoteIcon {
+  color: var(--color-secondary);
+  opacity: 0.3;
+  margin-bottom: var(--space-lg);
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.text {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  line-height: 1.75;
+  color: var(--color-text);
+  font-style: italic;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  flex-shrink: 0;
+}
+
+.authorName {
+  font-weight: 700;
+  color: var(--color-primary);
+  font-size: 0.95rem;
+}
+
+.authorRole {
+  font-size: 0.825rem;
+  color: var(--color-text-light);
+  margin-top: 2px;
+}
+
+.stars {
+  color: var(--color-accent);
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  margin-left: auto;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.navBtn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+  background: white;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.navBtn:hover {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+  transform: scale(1.05);
+}
+
+.dots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-border);
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  padding: 0;
+}
+
+.dotActive {
+  background: var(--color-primary-light);
+  width: 24px;
+  border-radius: var(--radius-full);
+}
