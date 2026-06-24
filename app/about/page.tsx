@@ -5,11 +5,11 @@ import { Check, Heart, Shield, Award, Users } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const timeline = [
-  { year: "1996", title: "Clinic Foundations", desc: "Opened the doors of Panecea Homeo Clinic to offer classical homeopathic remedies." },
+  { year: "1996", title: "Clinic Foundations", desc: "Opened the doors of Panacea Homoeo Clinic to offer classical homoeopathic remedies." },
   { year: "1998", title: "Expansion of Practice", desc: "Expanded clinical operations to address growing patient needs across Northern Kerala." },
   { year: "2008", title: "Second Branch Launched", desc: "Inaugurated our second fully equipped clinical branch in Vatanapally (Thrissur)." },
-  { year: "2019", title: "Trivandrum Branch & Digital Consultations", desc: "Opened our third clinic branch in Thrissur and launched secure video consultations globally." },
-  { year: "Present", title: "4 Decades of Legacy", desc: "Providing top-tier classical homeopathy across 3 branches to over 20,000+ happy patients." },
+  { year: "2019", title: "Thrissur Branch & Digital Consultations", desc: "Opened our third clinic branch in Thrissur and launched secure video consultations globally." },
+  { year: "Present", title: "4 Decades of Legacy", desc: "Providing top-tier classical homoeopathy across 3 branches to over 20,000+ happy patients." },
 ];
 
 const values = [
@@ -26,9 +26,9 @@ export default function About() {
         <div className="container text-center">
           <ScrollReveal direction="up">
             <span className="section-label" style={{ justifyContent: "center" }}>About the Doctor</span>
-            <h1 className="section-title" style={{ fontSize: "3rem" }}>Dr. Navaneeth K Unni, MD (Hom.)</h1>
+            <h1 className="section-title" style={{ fontSize: "3rem" }}>Dr. Navaneeth K Unni, Bhms, Cncc, Mba IIMK</h1>
             <p className="section-subtitle" style={{ margin: "var(--space-md) auto 0", maxWidth: "650px" }}>
-              Dedicated to restoring health naturally through scientific classical homeopathy. Learn about our history, values, and clinical qualifications.
+              Dedicated to restoring health naturally through scientific classical homoeopathy. Learn about our history, values, and clinical qualifications.
             </p>
           </ScrollReveal>
         </div>
@@ -44,7 +44,7 @@ export default function About() {
                 <h2 className="section-title">Healing the Patient, Not Just the Disease</h2>
                 <div className="divider" />
                 <p className="text-muted" style={{ marginBottom: "var(--space-md)", fontSize: "1.05rem" }}>
-                  Dr. Navaneeth K Unni has spent the last two decades refining a clinical approach that honors the complexity of the human mind and body. As the chief physician at Panecea Homeo Clinic, he carries forward a legacy of 4 decades of gentle, complete healing.
+                  Dr. Navaneeth K Unni has spent the last 1.5 decades refining a clinical approach that honors the complexity of the human mind and body. As the chief physician at Panacea Homoeo Clinic, he carries forward a legacy of 4 decades of gentle, complete healing.
                 </p>
                 <p className="text-muted" style={{ marginBottom: "var(--space-lg)" }}>
                   “Homeopathy does not believe in local diseases. Every symptom — whether it's a skin rash, headache, or digestive issue — is a language of the vital force calling for harmony. By choosing a remedy that matches this overall picture, we restore complete health.”
@@ -86,7 +86,7 @@ export default function About() {
               >
                 <span style={{ fontSize: "6rem" }}>👩‍⚕️</span>
                 <h3 style={{ color: "white", marginTop: "1rem", fontFamily: "var(--font-display)" }}>Dr. Navaneeth K Unni</h3>
-                <p style={{ color: "var(--color-accent-light)", fontSize: "0.9rem" }}>M.D. (Hom.) Chief Physician | B.H.M.S.</p>
+                <p style={{ color: "var(--color-accent-light)", fontSize: "0.9rem" }}> B.H.M.S. CNCC, MBA IIMK | Chief Physician </p>
               </div>
             </ScrollReveal>
           </div>
@@ -127,7 +127,7 @@ export default function About() {
             <span className="section-label">Our Journey</span>
             <h2 className="section-title">Timeline of Care</h2>
             <p className="section-subtitle">
-              A look at how Panecea Homeo Clinic's homeopathic practice has grown and evolved over the years.
+              A look at how Panacea Homoeo Clinic's homoeopathic practice has grown and evolved over the years.
             </p>
           </div>
           <div style={{ maxWidth: "800px", margin: "0 auto", position: "relative", paddingLeft: "2rem" }}>
