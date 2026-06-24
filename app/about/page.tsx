@@ -5,11 +5,11 @@ import { Check, Heart, Shield, Award, Users } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const timeline = [
-  { year: "1986", title: "Clinic Foundations", desc: "Opened the doors of Panecea Homeo Clinic to offer classical homeopathic remedies." },
+  { year: "1996", title: "Clinic Foundations", desc: "Opened the doors of Panecea Homeo Clinic to offer classical homeopathic remedies." },
   { year: "1998", title: "Expansion of Practice", desc: "Expanded clinical operations to address growing patient needs across Northern Kerala." },
-  { year: "2008", title: "Second Branch Launched", desc: "Inaugurated our second fully equipped clinical branch in Kochi (Ernakulam)." },
-  { year: "2018", title: "Trivandrum Branch & Digital Consultations", desc: "Opened our third clinic branch in Trivandrum and launched secure video consultations globally." },
-  { year: "Present", title: "4 Decades of Legacy", desc: "Providing top-tier classical homeopathy across 3 branches to over 50,000+ happy patients." },
+  { year: "2008", title: "Second Branch Launched", desc: "Inaugurated our second fully equipped clinical branch in Vatanapally (Thrissur)." },
+  { year: "2019", title: "Trivandrum Branch & Digital Consultations", desc: "Opened our third clinic branch in Thrissur and launched secure video consultations globally." },
+  { year: "Present", title: "4 Decades of Legacy", desc: "Providing top-tier classical homeopathy across 3 branches to over 20,000+ happy patients." },
 ];
 
 const values = [
