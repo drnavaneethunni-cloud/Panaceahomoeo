@@ -12,8 +12,8 @@ interface Stat {
 }
 
 const stats: Stat[] = [
-  { value: 5000, suffix: "+", label: "Patients Healed", description: "Across Kerala and beyond" },
-  { value: 15, suffix: "+", label: "Years Experience", description: "Classical homeopathy practice" },
+  { value: 20000, suffix: "+", label: "Patients Teeated", description: "Across Kerala and beyond" },
+  { value: 14, suffix: "+", label: "Years Experience", description: "Classical homeopathy practice" },
   { value: 98, suffix: "%", label: "Satisfaction Rate", description: "Patient-reported outcomes" },
   { value: 200, suffix: "+", label: "Conditions Treated", description: "Acute and chronic cases" },
 ];
