@@ -9,7 +9,7 @@ import styles from "./Hero.module.css";
 const floatingBadges = [
   { icon: Star, text: "4 Decades of Legacy", delay: 0 },
   { icon: Shield, text: "3 Branches in Kerala", delay: 1.5 },
-  { icon: Heart, text: "50,000+ Patients Healed", delay: 3 },
+  { icon: Heart, text: "20,000+ Patients Treated", delay: 3 },
 ];
 
 export default function Hero() {
@@ -110,7 +110,7 @@ export default function Hero() {
             </div>
             <div className={styles.trustText}>
               <div className={styles.stars}>{"★★★★★"}</div>
-              <p>Trusted by <strong>50,000+</strong> patients across 3 branches</p>
+              <p>Trusted by <strong>20,000+</strong> patients across 3 branches</p>
             </div>
           </motion.div>
         </div>
@@ -126,7 +126,7 @@ export default function Hero() {
             <div className={styles.doctorCard}>
               <div className={styles.doctorImagePlaceholder}>
                 <span className={styles.doctorInitials}>Dr. Navaneeth</span>
-                <span className={styles.doctorSub}>M.D. (Hom.)</span>
+                <span className={styles.doctorSub}>Bhms, Cncc, Mba IIMK</span>
               </div>
             </div>
 
