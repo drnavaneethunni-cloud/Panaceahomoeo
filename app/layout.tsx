@@ -4,16 +4,16 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Dr. Navaneeth K Unni | Panecea Homeo Clinic",
+  title: "Dr. Navaneeth K Unni | Panacea Homoeo Clinic",
   description:
-    "Experience the gentle healing power of classical homeopathy with Dr. Navaneeth K Unni at Panecea Homeo Clinic. 4 decades of legacy, 3 branches in Kerala.",
-  keywords: "homeopathy, homeo doctor, natural medicine, holistic healing, Dr. Navaneeth K Unni, Panecea Homeo Clinic, classical homeopathy",
+    "Experience the gentle healing power of classical homoeopathy with Dr. Navaneeth K Unni at Panacea Homoeo Clinic. 4 decades of legacy, 3 branches in Kerala.",
+  keywords: "homoeopathy, homeo, homeo doctor, homeo doctor thrissur, homeo clinic thrissur, homoeo doctor, natural medicine, holistic healing, Dr. Navaneeth K Unni, Panacea Homoeo Clinic, classical homoeopathy",
   openGraph: {
-    title: "Dr. Navaneeth K Unni | Panecea Homeo Clinic",
-    description: "Gentle healing through the science of classical homeopathy with 4 decades of legacy.",
+    title: "Dr. Navaneeth K Unni | Panacea Homoeo Clinic",
+    description: "Gentle healing through the science of classical homoeopathy with 4 decades of legacy.",
     type: "website",
   },
-};
+}; 
 
 export default function RootLayout({
   children,
