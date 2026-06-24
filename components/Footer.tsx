@@ -99,30 +99,30 @@ export default function Footer() {
                 <MapPin size={16} className={styles.contactIcon} />
                 <span>
                   <strong>3 Branches:</strong><br />
-                  • Calicut (Main Clinic)<br />
-                  • Kochi Branch<br />
-                  • Trivandrum Branch
+                  • Vatanapally (Main Clinic)<br />
+                  • Thrissur Branch<br />
+                  • Manalur Branch
                 </span>
               </div>
               <div className={styles.contactItem}>
                 <Phone size={16} className={styles.contactIcon} />
-                <a href="tel:+919876543210">+91 98765 43210</a>
+                <a href="tel:+918893247107">+91 88932 47107</a>
               </div>
               <div className={styles.contactItem}>
                 <Mail size={16} className={styles.contactIcon} />
-                <a href="mailto:info@paneceahomeo.com">info@paneceahomeo.com</a>
+                <a href="mailto:panaceahomoeoclinic@gmail.com">panaceahomoeoclinic@gmail.com</a>
               </div>
             </div>
             <div className={styles.hours}>
               <strong>Clinic Hours</strong>
-              <p>Mon – Sat: 9 AM – 7 PM</p>
-              <p>Sunday: 10 AM – 1 PM</p>
+              <p>Mon – Sat: 10 AM – 5 PM</p>
+              <p>Sunday: HOLIDAY</p>
             </div>
           </div>
         </div>
 
         <div className={styles.bottom}>
-          <p>© {new Date().getFullYear()} Panecea Homeo Clinic. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Panacea Homoeo Clinic. All rights reserved.</p>
           <div className={styles.bottomLinks}>
             <Link href="#">Privacy Policy</Link>
             <Link href="#">Terms of Service</Link>
