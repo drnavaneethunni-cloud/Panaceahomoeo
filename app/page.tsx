@@ -102,7 +102,7 @@ export default function Home() {
                   Our treatment is highly individualized. We take the time to understand your unique physical makeup, your personality, and the lifestyle stressors that influence your well-being.
                 </p>
                 <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", marginBottom: "var(--space-xl)" }}>
-                  {["BHMS & MD from Govt. Homeopathic Medical College", "4 Decades of Healing Legacy across 3 Kerala Branches", "Expert in Constitutional Care & Chronic Disease Management"].map((item) => (
+                  {["BHMS from Dr M G R medical university", "4 Decades of Healing Legacy across 3 Kerala Branches", "Expert in Constitutional Care & Chronic Disease Management"].map((item) => (
                     <div key={item} style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.95rem", fontWeight: "600" }}>
                       <Check size={18} style={{ color: "var(--color-secondary)" }} />
                       <span>{item}</span>
