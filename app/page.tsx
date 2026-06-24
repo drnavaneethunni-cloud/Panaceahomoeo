@@ -13,13 +13,13 @@ const servicesPreview = [
   {
     icon: Heart,
     title: "Chronic Diseases",
-    description: "Holistic constitutional treatment for asthma, arthritis, thyroid imbalances, and autoimmune diseases.",
+    description: "Holistic constitutional treatment for asthma, allergy, arthritis, hormonal imbalances, gastric complaints and autoimmune diseases.",
     color: "#2d6a4f",
   },
   {
     icon: Leaf,
     title: "Allergy & Respiratory",
-    description: "Gentle remedies to build immunity against asthma, seasonal allergies, sinusitis, and recurrent throat infections.",
+    description: "Gentle remedies against asthma, seasonal allergies, sinusitis, and recurrent throat infections.",
     color: "#52b788",
   },
   {
@@ -85,7 +85,7 @@ export default function Home() {
                     fontSize: "0.95rem",
                   }}
                 >
-                  Established since 1986
+                  Established since 1996
                 </div>
               </div>
             </ScrollReveal>
@@ -96,7 +96,7 @@ export default function Home() {
                 <h2 className="section-title">A Gentle Approach to Complete Healing</h2>
                 <div className="divider" />
                 <p className="text-muted" style={{ marginBottom: "var(--space-md)", fontSize: "1.05rem" }}>
-                  Welcome to Panecea Homeo Clinic. Dr. Navaneeth K Unni, MD (Hom.), believes in the inherent power of the human body to heal itself. Backed by 4 decades of dedicated clinical legacy and 3 branches in Kerala, we have helped thousands of families find lasting health through classical homeopathy.
+                  Welcome to Panacea Homoeo Clinic. Dr. Navaneeth K Unni,Bhms,Cncc,Mba IIMK, believes in the inherent power of the human body to heal itself. Backed by 4 decades of dedicated clinical legacy and 3 branches in Kerala, we have helped thousands of families find lasting health through classical homeopathy.
                 </p>
                 <p className="text-muted" style={{ marginBottom: "var(--space-lg)" }}>
                   Our treatment is highly individualized. We take the time to understand your unique physical makeup, your personality, and the lifestyle stressors that influence your well-being.
@@ -210,8 +210,8 @@ export default function Home() {
               <Link href="/appointments" className="btn btn-accent btn-lg">
                 Schedule a Consultation
               </Link>
-              <a href="tel:+919876543210" className="btn btn-outline-white btn-lg">
-                Call +91 98765 43210
+              <a href="tel:+919809054231" className="btn btn-outline-white btn-lg">
+                Call +91 98090 54231
               </a>
             </div>
           </ScrollReveal>
